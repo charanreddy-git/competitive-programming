@@ -1,0 +1,42 @@
+{
+	"GCD":{
+		"prefix": "gcd",
+		"body": [
+			"int gcd(int a, int b) {",
+			"    return b == 0 ? a : gcd(b, a % b);",
+			"}"
+		],
+		"description": "Compute GCD using Euclidean algorithm"
+	},
+	"Binary Exponentiation": {
+	"prefix": "binpow",
+	"body": [
+		"int binpow(int a, int b) {",
+		"    long long res = 1;",
+		"    while (b > 0) {",
+		"        if (b & 1)",
+		"            res = res * a;",
+		"        a = a * a;",
+		"        b >>= 1;",
+		"    }",
+		"    return res;",
+		"}"
+	],
+	"description": "Binary Exponentiation"
+	},
+	"Check Prime Number": {
+		"prefix": "isprime",
+		"body": [
+			"bool isprime(int n) {",
+			"    if (n < 2) return false;",
+			"    if (n == 2 || n == 3) return true;",
+			"    if (n % 2 == 0) return false;",
+			"    for (int i = 3; i * i <= n; i += 2) {",
+			"        if (n % i == 0) return false;",
+			"    }",
+			"    return true;",
+			"}"
+		],
+		"description": "Checks if a number is prime"
+	},
+}

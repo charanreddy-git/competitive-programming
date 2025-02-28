@@ -1,0 +1,104 @@
+{
+	"Template1": {
+		"prefix": "cp1",
+		"body": [
+			"#include <bits/stdc++.h>",
+			"",
+			"using namespace std;",
+			"#define int long long",
+			"",
+			"int32_t main() {",
+			"    ios_base::sync_with_stdio(0);",
+			"    cin.tie(0);",
+			"",
+			"    int tt;",
+			"    cin >> tt;",
+			"",
+			"    while(tt--){",
+			"",
+			"    }",
+			"    return 0;",
+			"}"
+		],
+		"description": "Basic CP template"
+	},
+
+	"Template2": {
+		"prefix": "cp2",
+		"body": [
+			"#include <bits/stdc++.h>",
+			"",
+			"using namespace std;",
+			"#define int long long",
+			"",
+			"template <typename T>",
+			"istream &operator>>(istream &istream, vector<T> &v) {",
+			"    for (auto &it : v) istream >> it;",
+			"    return istream;",
+			"}",
+			"",
+			"template <typename T>",
+			"ostream &operator<<(ostream &ostream, const vector<T> &v) {",
+			"    for (const auto &it : v) ostream << it << ' ';",
+			"    return ostream;",
+			"}",
+			"",
+			"int32_t main() {",
+			"    ios_base::sync_with_stdio(0);",
+			"    cin.tie(0);",
+			"",
+			"    int tt;",
+			"    cin >> tt;",
+			"    while(tt--){",
+			"",
+			"    }",
+			"    return 0;",
+			"}"
+		],
+		"description": "CP template with vector I/O operators"
+	},
+
+	"Prefix Sum": {
+		"prefix": "prefix",
+		"body": [
+			"vector<int> prefix(n + 1,0);",
+			"for (int i = 1;i <= n;i++){",
+			"    prefix[i] = prefix[i - 1] + a[i - 1];",
+			"}"
+		],
+		"description": "Computes prefix sum array"
+	},
+	"Greatest Common Divisor": {
+		"prefix": "gcd",
+		"body": [
+			"int gcd(int a, int b) {",
+			"    return b == 0 ? a : gcd(b, a % b);",
+			"}"
+		],
+		"description": "Compute GCD using Euclidean algorithm"
+	},
+
+	"Check Prime Number": {
+		"prefix": "isprime",
+		"body": [
+			"bool isprime(int n) {",
+			"    if (n < 2) return false;",
+			"    if (n == 2 || n == 3) return true;",
+			"    if (n % 2 == 0) return false;",
+			"    for (int i = 3; i * i <= n; i += 2) {",
+			"        if (n % i == 0) return false;",
+			"    }",
+			"    return true;",
+			"}"
+		],
+		"description": "Checks if a number is prime"
+	},
+
+	"All": {
+		"prefix": "all",
+		"body": [
+			"a.begin(), a.end()"
+		],
+		"description": "Shortcut for iterating over a container"
+	},
+}
