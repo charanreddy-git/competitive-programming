@@ -1,0 +1,3 @@
+a = "charan"
+
+print(a)
