@@ -8,6 +8,15 @@
 		],
 		"description": "Compute GCD using Euclidean algorithm"
 	},
+	"LCM":{
+		"prefix": "lcm",
+		"body": [
+			"int lcm(int a, int b) {",
+			"    return (a / gcd(a,b)) * b;",
+			"}"
+		],
+		"description": "Compute GCD using Euclidean algorithm"
+	},
 	"Binary Exponentiation": {
 	"prefix": "binpow",
 	"body": [
@@ -31,8 +40,8 @@
 			"    if (n < 2) return false;",
 			"    if (n == 2 || n == 3) return true;",
 			"    if (n % 2 == 0) return false;",
-			"    for (int i = 3; i * i <= n; i += 2) {",
-			"        if (n % i == 0) return false;",
+			"    for (int i = 3; i*i <= n; i += 2) {",
+			"        if (n%i == 0) return false;",
 			"    }",
 			"    return true;",
 			"}"
