@@ -1,12 +1,4 @@
 {
-	"long long": {
-		"scope": "cpp",
-		"prefix": "ll",
-		"body": [
-			"long long"
-		]
-	},
-
 	"vector<int>": {
 		"scope": "cpp",
 		"prefix": "vi",
@@ -14,15 +6,6 @@
 			"vector<int>"
 		]
 	},
-
-	"vector<long long>": {
-		"scope": "cpp",
-		"prefix": "vll",
-		"body": [
-			"vector<long long>"
-		]
-	},
-
 	"vector<vector<int>>": {
 		"scope": "cpp",
 		"prefix": "vvi",
@@ -30,28 +13,32 @@
 			"vector<vector<int>>"
 		]
 	},
-
-	"vector<vector<long long>>": {
-		"scope": "cpp",
-		"prefix": "vvll",
-		"body": [
-			"vector<vector<long long>>"
-		]
-	},
-
 	"pair<int,int>": {
 		"scope": "cpp",
 		"prefix": "pi",
 		"body": [
-			"pair<int,int>"
+			"pair<int,int>p"
 		]
 	},
-
 	"vector<pair<int,int>>": {
 		"scope": "cpp",
 		"prefix": "vpi",
 		"body": [
 			"vector<pair<int,int>>"
 		]
-	}
+	},
+	"map<int,int>": {
+		"scope": "cpp",
+		"prefix": "mi",
+		"body": [
+			"map<int,int>"
+		]
+	},
+	"All": {
+		"prefix": "all",
+		"body": [
+			"(a.begin(), a.end());"
+		],
+		"description": "Shortcut for iterating over a container"
+	},
 }
