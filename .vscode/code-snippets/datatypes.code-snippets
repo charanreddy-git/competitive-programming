@@ -27,6 +27,13 @@
 			"vector<pair<int,int>>"
 		]
 	},
+	"push_back": {
+		"scope": "cpp",
+		"prefix": "pb",
+		"body": [
+			"push_back"
+		]
+	},
 	"map<int,int>": {
 		"scope": "cpp",
 		"prefix": "mi",
@@ -37,7 +44,7 @@
 	"All": {
 		"prefix": "all",
 		"body": [
-			"(a.begin(), a.end());"
+			"a.begin(), a.end()"
 		],
 		"description": "Shortcut for iterating over a container"
 	},
