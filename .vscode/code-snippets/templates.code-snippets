@@ -1,24 +1,35 @@
 {
 	"CP template": {
-	"prefix": "cp",
+	"prefix": "cpp",
 	"body": [
 		"#include <bits/stdc++.h>",
 		"using namespace std; ",
-		"#define int long long",
 		"",
-		"void solve(){",
-		"    $0",
-		"}",
+		"#define int long long int",
 		"",
-		"int32_t main() {",
+		"signed main() {",
 		"    ios_base::sync_with_stdio(0);cin.tie(0);",
-		"    int tt; ",
-		"    cin >> tt;",
-		"    while(tt--) solve();",
+		"",
+		"    $0",
 		"    return 0;",
 		"}"
 	],
 	"description": "CP template"
+	},
+	"n": {
+	"prefix": "n",
+	"body": "int n; cin >> n;"
+	},
+	"testcases": {
+		"prefix": "tt",
+		"body": [
+			"int tt; cin >> tt;",
+			"",
+			"while (tt--) {",
+			"    $0",
+			"}"
+		],
+		"description": "testcases"
 	},
 	"Prefix Sum": {
 		"prefix": "prefix",
