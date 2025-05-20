@@ -16,10 +16,6 @@
 	],
 	"description": "CP template"
 	},
-	"n": {
-	"prefix": "n",
-	"body": "int n; cin >> n;"
-	},
 	"testcases": {
 		"prefix": "tt",
 		"body": [
