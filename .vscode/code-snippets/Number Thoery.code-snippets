@@ -33,6 +33,38 @@
 	],
 	"description": "Binary Exponentiation"
 	},
+	"prime factorization": {
+		"prefix": "primefactorization",
+		"body": [
+			"vector<int> primefactorization(int n){",
+			"    vector<int>factors;",
+			"    for(int i = 2;i*i <= n;i++){",
+			"        while(n%i == 0){",
+			"            factors.push_back(i);",
+			"            n /= i;",
+			"        }",
+			"    }",
+			"    if(n > 1) factors.push_back(n);",
+			"    return factors;",
+			"}"
+		],
+		"description": "TC : sqrt(n)"
+	},
+	"Sieve of Eratosthenes": {
+		"prefix": "sieve",
+		"body": [
+			"vector<bool>isprime(N+1,1);",
+			"    isprime[0] = isprime[1] = 0;",
+			"    for(int i = 2;i*i <= N;i++){",
+			"        if(isprime[i]){",
+			"            for(int j = i*i;j <= n;j += i){",
+			"                isprime[j] = 0;",
+			"            }",
+			"        }",
+			"    }"
+		],
+    	"description": "TC : n*log(logn)"
+	},
 	"Check Prime Number": {
 		"prefix": "isprime",
 		"body": [
