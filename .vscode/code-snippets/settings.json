@@ -1,0 +1,17 @@
+{
+    "editor.fontSize": 18,
+    "terminal.integrated.fontSize": 16,
+    "files.autoSave": "afterDelay",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "debug.console.closeOnEnd": true,
+    "explorer.confirmDelete": false,
+    "workbench.activityBar.location": "top",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.statusBar.visible": false,
+    "explorer.confirmDragAndDrop": false,
+    "chat.commandCenter.enabled": false,
+    "workbench.navigationControl.enabled": false,
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+
+}
