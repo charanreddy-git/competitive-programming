@@ -10,7 +10,6 @@
     "chat.commandCenter.enabled": false,
     "workbench.navigationControl.enabled": false,
     "window.commandCenter": false,
-    //"window.customTitleBarVisibility": "windowed",
     "vim.statusBarColorControl": true,
     "workbench.colorCustomizations": {
         "vim.normalModeStatusBarColor": "#005f87",
