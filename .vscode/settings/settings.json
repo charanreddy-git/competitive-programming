@@ -5,13 +5,23 @@
     "editor.cursorSmoothCaretAnimation": "on",
     "debug.console.closeOnEnd": true,
     "explorer.confirmDelete": false,
-    "workbench.activityBar.location": "top",
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.statusBar.visible": false,
     "explorer.confirmDragAndDrop": false,
     "chat.commandCenter.enabled": false,
     "workbench.navigationControl.enabled": false,
     "window.commandCenter": false,
-    "workbench.layoutControl.enabled": false,
+    //"window.customTitleBarVisibility": "windowed",
+    "vim.statusBarColorControl": true,
+    "workbench.colorCustomizations": {
+        "vim.normalModeStatusBarColor": "#005f87",
+        "vim.insertModeStatusBarColor": "#00875f",
+        "vim.visualModeStatusBarColor": "#af5fff",
+        "statusBar.background": "#005f87",
+        "statusBar.foreground": "#ffffff",
+        "statusBar.noFolderBackground": "#005f87",
+        "statusBar.debuggingBackground": "#005f87",
+        "statusBar.debuggingForeground": "#ffffff"
+    },
+    "workbench.layoutControl.enabled": false
 
 }
