@@ -1,20 +1,19 @@
 {
-	"CP template": {
+	"cpp template": {
 	"prefix": "cpp",
 	"body": [
 		"#include <bits/stdc++.h>",
+		"",
 		"using namespace std; ",
 		"",
-		"#define int long long int",
-		"",
-		"signed main() {",
+		"int main() {",
 		"    ios_base::sync_with_stdio(0);cin.tie(0);",
 		"",
 		"    $0",
 		"    return 0;",
 		"}"
 	],
-	"description": "CP template"
+	"description": "default"
 	},
 	"testcases": {
 		"prefix": "tt",
@@ -30,8 +29,8 @@
 	"Prefix Sum": {
 		"prefix": "prefix",
 		"body": [
-			"vector<int>p(n+1,0);",
-			"for(int i = 1;i <= n;i++){",
+			"vector<int> p(n+1,0);",
+			"for (int i = 1; i <= n; i++) {",
 			"    p[i] = p[i-1] + a[i-1];",
 			"}"
 		],
